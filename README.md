@@ -57,3 +57,8 @@ The **vivino-out.json** example:
         "http_status": 403, // http status - in case of an error only
     	"page_index": 23 // index of the problem page - in case of an error only
     }
+
+### For ARM based Macbooks
+Install chromium using the `--no-quarantine` flag to avoid errors with running the code in Chromium
+
+`brew install chromium --no-quarantine`
